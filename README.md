@@ -38,3 +38,4 @@ mysql -u root -p < p2_query.sql   # edit the WHERE clause params first
 | `show_seats` | Per-show availability state for each seat (concurrency core) |
 | `bookings`   | A user's purchase attempt for one or more seats              |
 | `payments`   | Payment records with idempotency via `external_txn_id`       |
+# BookMyShow DB — P1 & P2 Solution
